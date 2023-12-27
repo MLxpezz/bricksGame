@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.canvas-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121126;
+    position: relative;
+}
+
+.ps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 20px;
+}
+
+p {
+    color: #db2ef2;
+    font-size: 25px;
+}
+
+
+canvas {
+    border: 3px solid #db2ef2;
+    box-shadow: 0px 0px 9px 1px #db2ef2;
+}
